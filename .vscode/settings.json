@@ -1,23 +1,23 @@
 {
-  "editor.defaultFormatter": "svipas.prettier-plus",
-  "editor.formatOnType": false, // required
-  "editor.formatOnPaste": true, // optional
-  "editor.formatOnSave": true, // optional
-  "editor.formatOnSaveMode": "file", // required to format on save
-  "files.autoSave": "onFocusChange", // optional but recommended
-  "files.exclude": {
-    "**/.git": false
-  },
-  "prettier.requireConfig": true,
-  "[javascript]": {
     "editor.defaultFormatter": "svipas.prettier-plus",
     "editor.formatOnType": false, // required
     "editor.formatOnPaste": true, // optional
     "editor.formatOnSave": true, // optional
     "editor.formatOnSaveMode": "file", // required to format on save
-    "files.autoSave": "onFocusChange" // optional but recommended
-  },
-  "editor.codeActionsOnSave": {
-    // "source.fixAll": "always",
-  }
+    "files.autoSave": "onFocusChange", // optional but recommended
+    "files.exclude": {
+        "**/.git": false
+    },
+    "prettier.requireConfig": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "svipas.prettier-plus",
+        "editor.formatOnType": false, // required
+        "editor.formatOnPaste": true, // optional
+        "editor.formatOnSave": true, // optional
+        "editor.formatOnSaveMode": "file", // required to format on save
+        "files.autoSave": "onFocusChange" // optional but recommended
+    },
+    "editor.codeActionsOnSave": {
+        // "source.fixAll": "always",
+    }
 }
