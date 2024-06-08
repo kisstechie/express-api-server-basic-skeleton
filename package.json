@@ -6,7 +6,7 @@
     "scripts": {
         "start": "pnpm eslint && node --env-file=./config/.env.dev index.js",
         "start:staging": "pnpm eslint && node --env-file=./config/.env.staging index.js",
-        "commit": "cz",
+        "commitizen:commit": "cz",
         "test": "echo \"Error: no test specified\" && exit 1",
         "prepare": "husky"
     },
@@ -14,7 +14,7 @@
         "npm": "please use pnpm",
         "yarn": "please use pnpm",
         "pnpm": ">= 9.1.1"
-      },
+    },
     "keywords": [],
     "author": "kisstechie",
     "license": "ISC",
